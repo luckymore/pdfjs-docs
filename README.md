@@ -144,7 +144,7 @@ The list of operations contains all operations as defined in the PDF Specificati
 Set the line width in the graphics state.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2823](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2823)
 
 ### 3: setLineCap (`J`)
@@ -155,7 +155,7 @@ Set the line width in the graphics state.
 Set the line cap style in the graphics state.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2824](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2824)
 * https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap
 
@@ -167,7 +167,7 @@ Set the line cap style in the graphics state.
 Set the line join style in the graphics state.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2825](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2825)
 * https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin
 
@@ -179,7 +179,7 @@ Set the line join style in the graphics state.
 Set the miter limit in the graphics state.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2826](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2826)
 * https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/miterLimit
 
@@ -196,7 +196,7 @@ Set the miter limit in the graphics state.
 Set the line dash pattern in the graphics state.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2827](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2827)
 
 ### 7: setRenderingIntent (`ri`)
@@ -207,7 +207,7 @@ Set the line dash pattern in the graphics state.
 Set the colour rendering intent in the graphics state.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2828](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2828)
 
 ### 8: setFlatness (`i`)
@@ -218,7 +218,7 @@ Set the colour rendering intent in the graphics state.
 Set the flatness tolerance in the graphics state. `flatness` is a number in the range `0` to `100`; a value of `0` shall specify the output device’s default flatness tolerance.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2829](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2829)
 
 ### 9: setGState (`gs`)
@@ -242,7 +242,7 @@ Set the flatness tolerance in the graphics state. `flatness` is a number in the 
 Set the specified parameters in the graphics state. `dictName` shall be the name of a graphics state parameter dictionary in the **ExtGState** subdictionary of the current resource dictionary.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2830](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2830)
 
 ### 10: save (`q`)
@@ -301,7 +301,7 @@ Saves the following properties:
 Save the current graphics state on the graphics state stack.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2831](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2831)
 
 ### 11: restore (`Q`)
@@ -312,7 +312,7 @@ Save the current graphics state on the graphics state stack.
 Restore the graphics state by removing the [most recently saved state](#10-save-q) from the stack and making it the current state.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2832](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2832)
 
 ### 12: transform (`cm`)
@@ -328,7 +328,7 @@ Restore the graphics state by removing the [most recently saved state](#10-save-
 Modify the current transformation matrix (CTM) by concatenating the specified matrix. Although the operands specify a matrix, they shall be written as six separate numbers, not as an array.
 
 #### Source
-* [PDF Specification / Table 57 – Graphics State Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793795)
+* [PDF Specification / Table 57 – Graphics State Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793795)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2833](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2833)
 
 ### 13: moveTo (`m`)
@@ -340,7 +340,7 @@ Modify the current transformation matrix (CTM) by concatenating the specified ma
 Begin a new subpath by moving the current point to coordinates (`x`, `y`), omitting any connecting line segment. If the previous path construction operator in the current path was also **`m`**, the new **`m`** overrides it; no vestige of the previous **`m`** operation remains in the path.
 
 #### Source
-* [PDF Specification / Table 59 – Path Construction Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987642)
+* [PDF Specification / Table 59 – Path Construction Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987642)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2836](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2836)
 
 ### 14: lineTo (`l`)
@@ -352,7 +352,7 @@ Begin a new subpath by moving the current point to coordinates (`x`, `y`), omitt
 Append a straight line segment from the current point to the point (`x`, `y`). The new current point shall be (`x`, `y`). 
 
 #### Source
-* [PDF Specification / Table 59 – Path Construction Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987642)
+* [PDF Specification / Table 59 – Path Construction Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987642)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2837](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2837)
 
 ### 15: curveTo (`c`)
@@ -368,7 +368,7 @@ Append a straight line segment from the current point to the point (`x`, `y`). T
 Append a cubic Bézier curve to the current path. The curve shall extend from the current point to the point (`x3`, `y3`), using (`x1`, `y1`) and (`x2`, `y2`) as the Bézier control points. The new current point shall be (`x3`, `y3`). 
 
 #### Source
-* [PDF Specification / Table 59 – Path Construction Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987642)
+* [PDF Specification / Table 59 – Path Construction Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987642)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2838](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2838)
 
 ### 16: curveTo2 (`v`)
@@ -382,7 +382,7 @@ Append a cubic Bézier curve to the current path. The curve shall extend from th
 Append a cubic Bézier curve to the current path. The curve shall extend from the current point to the point (`x3`, `y3`), using the current point and (`x2`, `y2`) as the Bézier control points. The new current point shall be (`x3`, `y3`). 
 
 #### Source
-* [PDF Specification / Table 59 – Path Construction Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987642)
+* [PDF Specification / Table 59 – Path Construction Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987642)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2839](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2839)
 
 ### 17: curveTo3 (`y`)
@@ -396,7 +396,7 @@ Append a cubic Bézier curve to the current path. The curve shall extend from th
 Append a cubic Bézier curve to the current path. The curve shall extend from the current point to the point (`x3`, `y3`), using (`x1`, `y1`) and (`x3`, `y3`) as the Bézier control points. The new current point shall be (`x3`, `y3`). 
 
 #### Source
-* [PDF Specification / Table 59 – Path Construction Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987642)
+* [PDF Specification / Table 59 – Path Construction Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987642)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2840](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2840)
 
 ### 18: closePath (`h`)
@@ -410,7 +410,7 @@ subpath. If the current subpath is already closed, **`h`** shall do nothing.
 This operator terminates the current subpath. Appending another segment to the current path shall begin a new subpath, even if the new segment begins at the endpoint reached by the **`h`** operation. 
 
 #### Source
-* [PDF Specification / Table 59 – Path Construction Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987642)
+* [PDF Specification / Table 59 – Path Construction Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987642)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2841](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2841)
 
 ### 19: rectangle (`re`)
@@ -436,7 +436,7 @@ h
 ```
 
 #### Source
-* [PDF Specification / Table 59 – Path Construction Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987642)
+* [PDF Specification / Table 59 – Path Construction Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987642)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2842](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2842)
 
 ### 20: stroke (`S`)
@@ -447,7 +447,7 @@ h
 Stroke the path.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2843](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2843)
 
 ### 21: closeStroke (`s`)
@@ -458,7 +458,7 @@ Stroke the path.
 [Close](#18-closepath-h) and [stroke](#20-stroke-s) the path. This operator shall have the same effect as the sequence `h S`. 
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2844](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2844)
 
 ### 22: fill (`f` / `F`)
@@ -469,7 +469,7 @@ Stroke the path.
 Fill the path, using the [nonzero winding number rule](http://en.wikipedia.org/wiki/Nonzero-rule) to determine the region to fill. Any subpaths that are open shall be implicitly closed before being filled.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2845-L2846](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2845-L2846)
 
 ### 23: eoFill (`f*`)
@@ -480,7 +480,7 @@ Fill the path, using the [nonzero winding number rule](http://en.wikipedia.org/w
 Fill the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80%93odd_rule) to determine the region to fill.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2847](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2847)
 
 ### 24: fillStroke (`B`)
@@ -491,7 +491,7 @@ Fill the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80
 [Fill](#22-fill-f--f) and then [stroke](#20-stroke-s) the path, using the [nonzero winding number rule](http://en.wikipedia.org/wiki/Nonzero-rule) to determine the region to fill. This operator  shall produce the same result as constructing two identical path objects, painting the first with `f` and the second with `S`.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2848](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2848)
 
 ### 25: eoFillStroke (`B*`)
@@ -502,7 +502,7 @@ Fill the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80
 [Fill](#23-eofill-f) and then [stroke](#20-stroke-s) the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80%93odd_rule) to determine the region to fill. This operator shall produce the same result as `B`, except that the path is  filled  as  if  with `f*` instead of `f`.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2849](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2849)
 
 ### 26: closeFillStroke (`b`)
@@ -513,7 +513,7 @@ Fill the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80
 [Close](#18-closepath-h), [fill](#22-fill-f--f), and then [stroke](#20-stroke-s) the path, using the [nonzero winding number rule](http://en.wikipedia.org/wiki/Nonzero-rule) to determine the region to fill. This operator shall have the same effect as the sequence `h B`.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2850](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2850)
 
 ### 27: closeEOFillStroke (`b*`)
@@ -524,7 +524,7 @@ Fill the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80
 [Close](#18-closepath-h), [fill](#23-eofill-f), and then [stroke](#20-stroke-s) the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80%93odd_rule) to determine the region to fill. This operator shall have the same effect as the sequence `h B*`.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2851](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2851)
 
 ### 28: endPath (`n`)
@@ -535,7 +535,7 @@ Fill the path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80
 End the path object without filling or stroking it. This operator shall be a path-painting no-op, used primarily for  the side effect of changing the current clipping path.
 
 #### Source
-* [PDF Specification / Table 60 – Path-Painting Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987646)
+* [PDF Specification / Table 60 – Path-Painting Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987646)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2852](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2852)
 
 ### 29: clip (`W`)
@@ -546,7 +546,7 @@ End the path object without filling or stroking it. This operator shall be a pat
 Modify the current clipping path by intersecting it with the current path, using the [nonzero winding number rule](http://en.wikipedia.org/wiki/Nonzero-rule) to determine which regions lie inside the clipping path. 
 
 #### Source
-* [PDF Specification / Table 61 – Clipping Path Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.1850168)
+* [PDF Specification / Table 61 – Clipping Path Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.1850168)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2855](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2855)
 
 ### 30: eoClip (`W*`)
@@ -557,7 +557,7 @@ Modify the current clipping path by intersecting it with the current path, using
 Modify the current clipping path by intersecting it with the current path, using the [even-odd rule](http://en.wikipedia.org/wiki/Even%E2%80%93odd_rule) to determine which regions lie inside the clipping path.
 
 #### Source
-* [PDF Specification / Table 61 – Clipping Path Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.1850168)
+* [PDF Specification / Table 61 – Clipping Path Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.1850168)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2856](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2856)
 
 ### 31: beginText (`BT`)
@@ -568,7 +568,7 @@ Modify the current clipping path by intersecting it with the current path, using
 Begin a text object, initializing the text matrix and the text line matrix to the identity matrix. Text objects shall not be nested; a second **`BT`** shall not appear before an **`ET`** *([`endText`](#32-endtext-et))*. 
 
 #### Source
-* [PDF Specification / Table 107 – Text object operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958458)
+* [PDF Specification / Table 107 – Text object operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958458)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2859](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2859)
 
 ### 32: endText (`ET`)
@@ -579,7 +579,7 @@ Begin a text object, initializing the text matrix and the text line matrix to th
 End a text object, discarding the text matrix.
 
 #### Source
-* [PDF Specification / Table 107 – Text object operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958458)
+* [PDF Specification / Table 107 – Text object operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958458)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2860](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2860)
 
 ### 33: setCharSpacing (`Tc`)
@@ -590,7 +590,7 @@ End a text object, discarding the text matrix.
 Set the character spacing to `charSpace`, which shall be a number expressed in unscaled text space units. Character spacing shall be used by the **`Tj`** *([`showText`](#44-showText-tj))*, **`TJ`** *([`showSpacedText`](#45-showspacedtext-tj))*, and **`'`** *([`nextLineShowText`](#46-nextlineshowtext-))* operators. Initial value: `0`. 
 
 #### Source
-* [PDF Specification / Table 105 – Text state operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958454)
+* [PDF Specification / Table 105 – Text state operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958454)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2861](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2861)
 
 ### 34: setWordSpacing (`Tw`)
@@ -601,7 +601,7 @@ Set the character spacing to `charSpace`, which shall be a number expressed in u
 Set the word spacing to `wordSpace`, which shall be a number expressed in unscaled text space units. Word spacing shall be used by the **`Tj`** *([`showText`](#44-showText-tj))*, **`TJ`** *([`showSpacedText`](#45-showspacedtext-tj))*, and **`'`** *([`nextLineShowText`](#46-nextlineshowtext-))* operators. Initial value: `0`.
 
 #### Source
-* [PDF Specification / Table 105 – Text state operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958454)
+* [PDF Specification / Table 105 – Text state operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958454)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2862](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2862)
 
 ### 35: setHScale (`Tz`)
@@ -612,7 +612,7 @@ Set the word spacing to `wordSpace`, which shall be a number expressed in unscal
 Set the horizontal scaling to (`scale` ÷ 100). `scale` shall be a number specifying the percentage of the normal width. Initial value: `100` (normal width). 
 
 #### Source
-* [PDF Specification / Table 105 – Text state operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958454)
+* [PDF Specification / Table 105 – Text state operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958454)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2863](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2863)
 
 ### 36: setLeading (`TL`)
@@ -623,7 +623,7 @@ Set the horizontal scaling to (`scale` ÷ 100). `scale` shall be a number specif
 Set the text leading to `leading`, which shall be a number expressed in unscaled text space units. Text leading shall be used only by the **`T*`** *([`nextLine`](#43-nextline-t))*, **`'`** *([`nextLineShowText`](#46-nextlineshowtext-))*, and **`"`** *([`nextLineSetSpacingShowText`](#47-nextlinesetspacingshowtext-))* operators. Initial value: `0`. 
 
 #### Source
-* [PDF Specification / Table 105 – Text state operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958454)
+* [PDF Specification / Table 105 – Text state operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958454)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2864](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2864)
 
 ### 37: setFont (`Tf`)
@@ -635,7 +635,7 @@ Set the text leading to `leading`, which shall be a number expressed in unscaled
 Set the text font to `font` and the text font size to `size`. `font` shall be the name of a font resource in the **Font** subdictionary of the current resource dictionary; `size` shall be a number representing a scale factor. There is no initial value for either `font` or `size`; they shall be specified explicitly by using **`Tf`** before any text is shown.
 
 #### Source
-* [PDF Specification / Table 105 – Text state operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958454)
+* [PDF Specification / Table 105 – Text state operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958454)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2865](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2865)
 
 ### 38: setTextRenderingMode (`Tr`)
@@ -646,7 +646,7 @@ Set the text font to `font` and the text font size to `size`. `font` shall be th
 Set the text rendering mode to `render`, which shall be an integer. Initial value: `0`.
 
 #### Source
-* [PDF Specification / Table 105 – Text state operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958454)
+* [PDF Specification / Table 105 – Text state operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958454)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2866](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2866)
 
 ### 39: setTextRise (`Ts`)
@@ -657,7 +657,7 @@ Set the text rendering mode to `render`, which shall be an integer. Initial valu
 Set the text rise to `rise`, which shall be a number expressed in unscaled text space units. Initial value: `0`.
 
 #### Source
-* [PDF Specification / Table 105 – Text state operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1958454)
+* [PDF Specification / Table 105 – Text state operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1958454)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2868](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2868)
 
 ### 40: moveText (`Td`)
@@ -677,7 +677,7 @@ Tlm = text line matrix
 ```
 
 #### Source
-* [PDF Specification / Table 108 – Text-positioning operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1849331)
+* [PDF Specification / Table 108 – Text-positioning operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1849331)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2869](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2869)
 
 ### 41: setLeadingMoveText (`TD`)
@@ -693,7 +693,7 @@ tx ty Td
 ```
 
 #### Source
-* [PDF Specification / Table 108 – Text-positioning operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1849331)
+* [PDF Specification / Table 108 – Text-positioning operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1849331)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2870](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2870)
 
 ### 42: setTextMatrix (`Tm`)
@@ -720,7 +720,7 @@ The operands shall all be numbers, and the initial value for **Tm** and **Tlm** 
 The matrix specified by the operands shall not be concatenated onto the current text matrix, but shall replace it. 
 
 #### Source
-* [PDF Specification / Table 108 – Text-positioning operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1849331)
+* [PDF Specification / Table 108 – Text-positioning operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1849331)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2871](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2871)
 
 ### 43: nextLine (`T*`)
@@ -735,7 +735,7 @@ Move to the start of the next line. This operator has the same effect as the cod
 where `Tl` denotes the current leading parameter in the text state. The negative of `Tl` is used here because `Tl` is the text leading expressed as a positive number. Going to the next line entails decreasing the y coordinate.
 
 #### Source
-* [PDF Specification / Table 108 – Text-positioning operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1849331)
+* [PDF Specification / Table 108 – Text-positioning operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1849331)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2872](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2872)
 
 ### 44: showText (`Tj`)
@@ -748,7 +748,7 @@ Operands differ between the PDF specification and the implementation in PDF.js.
 Show a text string.
 
 #### Source
-* [PDF Specification / Table 109 – Text-showing operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1898300)
+* [PDF Specification / Table 109 – Text-showing operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1898300)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2873](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2873)
 
 ### 45: showSpacedText (`TJ`)
@@ -759,7 +759,7 @@ Show a text string.
 Show one or more text strings, allowing individual glyph positioning. Each element of `array` shall be either a string or a number. If the element is a string, this operator shall show the string. If it is a number, the operator shall adjust the text position by that amount; that is, it shall translate the text matrix, **Tm**. The number shall be expressed in thousandths of a unit of text space. This amount shall be subtracted from the current horizontal or vertical coordinate, depending on the writing mode. In the default coordinate system, a positive adjustment has the  effect of moving the next glyph painted either to the left or down by the given amount.
 
 #### Source
-* [PDF Specification / Table 109 – Text-showing operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1898300)
+* [PDF Specification / Table 109 – Text-showing operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1898300)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2874](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2874)
 
 ### 46: nextLineShowText (`'`)
@@ -776,7 +776,7 @@ string Tj
 ```
 
 #### Source
-* [PDF Specification / Table 109 – Text-showing operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1898300)
+* [PDF Specification / Table 109 – Text-showing operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1898300)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2875](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2875)
 
 ### 47: nextLineSetSpacingShowText (`"`)
@@ -796,7 +796,7 @@ string '
 ```
 
 #### Source
-* [PDF Specification / Table 109 – Text-showing operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1898300)
+* [PDF Specification / Table 109 – Text-showing operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1898300)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2876-L2877](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2876-L2877)
 
 ### 48: setCharWidth (`d0`)
@@ -812,7 +812,7 @@ Set width information for the glyph and declare that the glyph description speci
 This operator shall only be permitted in a content stream appearing in a Type 3 font’s **CharProcs** dictionary. It is  typically used only if the glyph description executes operators to set the colour explicitly. 
 
 #### Source
-* [PDF Specification / Table 113 – Type 3 font operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1853938)
+* [PDF Specification / Table 113 – Type 3 font operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1853938)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2880](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2880)
 
 ### 49: setCharWidthAndBounds (`d1`)
@@ -838,7 +838,7 @@ A glyph description that begins with the **`d1`** operator should not execute an
 This operator shall be used only in a content stream appearing in a Type 3 font’s **CharProcs** dictionary.
 
 #### Source
-* [PDF Specification / Table 113 – Type 3 font operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G8.1853938)
+* [PDF Specification / Table 113 – Type 3 font operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G8.1853938)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2881](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2881)
 
 ### 50: setStrokeColorSpace (`CS`)
@@ -860,7 +860,7 @@ substituted.
 * In a **Pattern** colour space, the initial colour shall be a pattern object that causes nothing to be painted.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2885](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2885)
 
 ### 51: setFillColorSpace (`cs`)
@@ -871,7 +871,7 @@ substituted.
 Same as **`CS`** *([`setStrokeColorSpace`](#50-setstrokecolorspace-cs))* but used for nonstroking operations.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2886](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2886)
 
 ### 52: setStrokeColor (`SC`)
@@ -897,7 +897,7 @@ Set the colour to use for stroking operations in a device, CIE-based (other than
 * For **DeviceCMYK** four operands shall be required (`n` = `4`).
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2887](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2887)
 
 ### 53: setStrokeColorN (`SCN`)
@@ -915,7 +915,7 @@ If the current stroking colour space is a **Separation**, **DeviceN**, or **ICCB
 If the current stroking colour space is a **Pattern** colour space, `name` shall be the name of an entry in the **Pattern** subdictionary of the current resource dictionary. For an uncoloured tiling pattern (**PatternType** = `1` and **PaintType** = `2`), `c1` ... `cn` shall be component values specifying a colour in the pattern’s underlying colour space. For other types of patterns, these operands shall not be specified.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2888](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2888)
 
 ### 54: setFillColor (`sc`)
@@ -938,7 +938,7 @@ For CMYK color spaces (DeviceCMYK):
 Same as **`SC`** *([`setStrokeColor`](#52-setstrokecolor-sc))* but used for nonstroking operations.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2889](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2889)
 
 ### 55: setFillColorN (`scn`)
@@ -952,7 +952,7 @@ or
 Same as **`SCN`** *([`setStrokeColorN`](#53-setstrokecolorn-scn))* but used for nonstroking operations.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2890](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2890)
 
 ### 56: setStrokeGray (`G`)
@@ -963,7 +963,7 @@ Same as **`SCN`** *([`setStrokeColorN`](#53-setstrokecolorn-scn))* but used for 
 Set the stroking colour space to **DeviceGray** (or the **DefaultGray** colour space) and set the gray level to use for stroking operations. `gray` shall be a number between `0.0` (black) and `1.0` (white).
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2891](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2891)
 
 ### 57: setFillGray (`g`)
@@ -974,7 +974,7 @@ Set the stroking colour space to **DeviceGray** (or the **DefaultGray** colour s
 Same as **`G`** *([`setStrokeGray`](#56-setstrokegray-g))* but used for nonstroking operations.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2892](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2892)
 
 ### 58: setStrokeRGBColor (`RG`)
@@ -987,7 +987,7 @@ Same as **`G`** *([`setStrokeGray`](#56-setstrokegray-g))* but used for nonstrok
 Set the stroking colour space to **DeviceRGB** (or the **DefaultRGB** colour space) and set the colour to use for stroking operations. Each operand shall be a number between `0.0` (minimum intensity) and `1.0` (maximum intensity).
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2893](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2893)
 
 ### 59: setFillRGBColor (`rg`)
@@ -1000,7 +1000,7 @@ Set the stroking colour space to **DeviceRGB** (or the **DefaultRGB** colour spa
 Same as **`RG`** *([`setStrokeRGBColor`](#58-setstrokecolor-rg))* but used for nonstroking operations.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2894](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2894)
 
 ### 60: setStrokeCMYKColor (`K`)
@@ -1014,7 +1014,7 @@ Same as **`RG`** *([`setStrokeRGBColor`](#58-setstrokecolor-rg))* but used for n
 Set the stroking colour space to **DeviceCMYK** (or the **DefaultCMYK** colour space) and set the colour to use for stroking operations. Each operand shall be a number between `0.0` (zero concentration) and `1.0` (maximum concentration). The behaviour of this  operator  is  affected  by  the  overprint  mode.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2895](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2895)
 
 ### 61: setFillCMYKColor (`k`)
@@ -1028,7 +1028,7 @@ Set the stroking colour space to **DeviceCMYK** (or the **DefaultCMYK** colour s
 Same as **`K`** *([`setStrokeCMYKColor`](#60-setstrokecmykcolor-k))* but used for nonstroking operations.
 
 #### Source
-* [PDF Specification / Table 74 – Colour Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3793574)
+* [PDF Specification / Table 74 – Colour Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3793574)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2896](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2896)
 
 ### 62: shadingFill (`sh`)
@@ -1044,7 +1044,7 @@ contrast, when a shading dictionary is used in a type 2 pattern, the coordinates
 This operator should be applied only to bounded or geometrically defined shadings. If applied to an unbounded shading, it paints the shading’s gradient fill across the entire clipping region, which may be time-consuming.
 
 #### Source
-* [PDF Specification / Table 77 – Shading Operator](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.1851121)
+* [PDF Specification / Table 77 – Shading Operator](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.1851121)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2899](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2899)
 
 ### 63: beginInlineImage (`BI`)
@@ -1055,7 +1055,7 @@ This operator should be applied only to bounded or geometrically defined shading
 Begin an inline image object.
 
 #### Source
-* [PDF Specification / Table 92 – Inline Image Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.1852045)
+* [PDF Specification / Table 92 – Inline Image Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.1852045)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2902](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2902)
 
 ### 64: beginImageData (`ID`)
@@ -1066,7 +1066,7 @@ Begin an inline image object.
 Begin the image data for an inline image object.
 
 #### Source
-* [PDF Specification / Table 92 – Inline Image Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.1852045)
+* [PDF Specification / Table 92 – Inline Image Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.1852045)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2903](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2903)
 
 ### 65: endInlineImage (`EI`)
@@ -1077,7 +1077,7 @@ Begin the image data for an inline image object.
 End an inline image object.
 
 #### Source
-* [PDF Specification / Table 92 – Inline Image Operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.1852045)
+* [PDF Specification / Table 92 – Inline Image Operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.1852045)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2904](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2904)
 
 ### 66: paintXObject (`Do`)
@@ -1088,7 +1088,7 @@ End an inline image object.
 Paint the specified XObject. The operand `name` shall appear as a key in the **XObject** subdictionary of the current resource dictionary. The associated value shall be a stream whose **Type** entry, if present, is **XObject**. The effect of **`Do`** depends on the value of the XObject’s Subtype entry, which may be **Image**, **Form**, or **PS** (PostScript XObject). 
 
 #### Source
-* [PDF Specification / Table 87 – XObject Operator](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G7.3987702)
+* [PDF Specification / Table 87 – XObject Operator](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G7.3987702)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2907](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2907)
 
 ### 67: markPoint (`MP`)
@@ -1099,7 +1099,7 @@ Paint the specified XObject. The operand `name` shall appear as a key in the **X
 Designate a marked-content point. `tag` shall be a name object indicating the role or significance of the point.
 
 #### Source
-* [PDF Specification / Table 320 – Marked-content operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G13.2438921)
+* [PDF Specification / Table 320 – Marked-content operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G13.2438921)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2908](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2908)
 
 ### 68: markPointProps (`DP`)
@@ -1111,7 +1111,7 @@ Designate a marked-content point. `tag` shall be a name object indicating the ro
 Designate a marked-content point with an associated property list. `tag` shall be a name object indicating the role or significance of the point. `properties` shall be either an inline dictionary containing the property list or a name object associated with it in the **Properties** subdictionary of the current resource dictionary.
 
 #### Source
-* [PDF Specification / Table 320 – Marked-content operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G13.2438921)
+* [PDF Specification / Table 320 – Marked-content operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G13.2438921)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2909](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2909)
 
 ### 69: beginMarkedContent (`BMC`)
@@ -1122,7 +1122,7 @@ Designate a marked-content point with an associated property list. `tag` shall b
 Begin a marked-content sequence terminated by a balancing **`EMC`** *([`endMarkedContent`](#71-endmarkedcontent-emc))* operator. `tag` shall be a name object indicating the role or significance of the sequence.
 
 #### Source
-* [PDF Specification / Table 320 – Marked-content operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G13.2438921)
+* [PDF Specification / Table 320 – Marked-content operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G13.2438921)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2910](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2910)
 
 ### 70: beginMarkedContentProps (`BDC`)
@@ -1134,7 +1134,7 @@ Begin a marked-content sequence terminated by a balancing **`EMC`** *([`endMarke
 Begin a marked-content sequence with an associated property list, terminated by a balancing **`EMC`** *([`endMarkedContent`](#71-endmarkedcontent-emc))* operator. `tag` shall be a name object indicating the role or significance of the sequence. `properties` shall be either an inline dictionary containing the property list or a name object associated with it in the **Properties** subdictionary of the current resource dictionary.
 
 #### Source
-* [PDF Specification / Table 320 – Marked-content operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G13.2438921)
+* [PDF Specification / Table 320 – Marked-content operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G13.2438921)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2911-L2912](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2911-L2912)
 
 ### 71: endMarkedContent (`EMC`)
@@ -1145,7 +1145,7 @@ Begin a marked-content sequence with an associated property list, terminated by 
 End a marked-content sequence begun by a **`BMC`** *([`beginMarkedContent`](#69-beginmarkedcontent-bmc))* or **`BDC`** *([`beginMarkedContentProps`](#70-beginmarkedcontentprops-bdc))* operator.
 
 #### Source
-* [PDF Specification / Table 320 – Marked-content operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G13.2438921)
+* [PDF Specification / Table 320 – Marked-content operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G13.2438921)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2913](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2913)
 
 ### 72: beginCompat (`BX`)
@@ -1156,7 +1156,7 @@ End a marked-content sequence begun by a **`BMC`** *([`beginMarkedContent`](#69-
 Begin a compatibility section. Unrecognized operators (along with their operands) shall be ignored without error until the balancing **`EX`** *([`endCompat`](#73-endcompat-ex))* operator is encountered.
 
 #### Source
-* [PDF Specification / Table 32 – Compatibility operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G6.1913072)
+* [PDF Specification / Table 32 – Compatibility operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G6.1913072)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2916](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2916)
 
 ### 73: endCompat (`EX`)
@@ -1167,7 +1167,7 @@ Begin a compatibility section. Unrecognized operators (along with their operands
 End a compatibility section begun by a balancing **`BX`** *([`beginCompat`](#72-begincompat-bx))* operator. Ignore any unrecognized operands and operators  from previous matching **`BX`** onward.
 
 #### Source
-* [PDF Specification / Table 32 – Compatibility operators](https://www.adobe.com/content/dam/acom/en/devnet/pdf/PDF32000_2008.pdf#G6.1913072)
+* [PDF Specification / Table 32 – Compatibility operators](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#G6.1913072)
 * [https://github.com/mozilla/pdf.js/.../src/core/evaluator.js#L2917](https://github.com/mozilla/pdf.js/blob/842e9206c059d36b9592e1e1b214985da6b57170/src/core/evaluator.js#L2917)
 
 ### 74: paintFormXObjectBegin
